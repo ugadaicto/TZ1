@@ -3,7 +3,6 @@
 Process() {
     for file in $1/*
     do
-    echo $file
         if [ -d "$file" ]
             then
             Process "$file"
